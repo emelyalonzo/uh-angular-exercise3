@@ -1,0 +1,16 @@
+.navbar {
+    display:flex;
+    justify-content: flex-end;
+    padding: 24px;
+    background-color: rgb(186, 221, 221);
+    &__element {
+        margin: 0 15px;
+        a {
+            text-decoration: none;
+            color: rgb(51, 41, 41)
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        align-self: center;
+    }
+    ul {
+        list-style: armenian;
+    }
+}
